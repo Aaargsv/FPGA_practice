@@ -9,7 +9,7 @@ module ClockDivider
 	output	logic				clk_1hz
 );
 	
-	localparam int lp_div_cnt = 50000000/(2*frequency);
+	localparam logic [31:0] lp_div_cnt = 50000000/(2*frequency);
 	logic [25:0] counter;
 	
 	always_ff @(posedge clk_50mhz, negedge reset)
