@@ -3,9 +3,9 @@ module HexDecoder
 (
 	
 	input		logic [3:0]		i_data,
-	input 	wire 				nsyst,
+	input 		wire 			nsyst,
 	
-	output 	logic [6:0]		seven_Hex
+	output 		logic [6:0]		seven_Hex
 	
 );
 

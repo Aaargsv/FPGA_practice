@@ -5,17 +5,17 @@ module DUT
 	input		wire				reset,
 		
 	input		wire				incrm_cntl,
-	input 	wire				decrm_cntl,
+	input 		wire					decrm_cntl,
 	input		wire				shift_cntl,
 	
 	input		wire				set,
 	input		wire				i_work_enable,
 	input		wire				nsyst,
 	
-	output 	logic	[5:0]		data,
-	output  	logic [6:0] 	seven_Display [5:0],
+	output 		logic [5:0]			data,
+	output  	logic [6:0] 		seven_Display [5:0],
 	
-	output	wire				clk_1hz
+	output		wire				clk_1hz
 
 ); 
 	logic [5:0] i_initial = 6'b 11_1110;

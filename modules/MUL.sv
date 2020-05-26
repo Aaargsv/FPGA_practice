@@ -4,9 +4,9 @@ module MUL
 	input		logic [6:0]		seven_Hex [1:0],
 	input		logic [6:0]		seven_Bin [5:0],
 	
-	input 	wire 				nsyst,
+	input 		wire 			nsyst,
 	
-	output 	logic [6:0]		seven_Display [5:0]
+	output 		logic [6:0]		seven_Display [5:0]
 
 );
 

@@ -3,7 +3,7 @@ module BinDecoder
 (
 	
 	input	 	logic [5:0]		i_data,
-	input 	wire 				nsyst,
+	input 		wire 			nsyst,
 	
 	output  	logic [6:0] 	seven_Bin [5:0]
 	

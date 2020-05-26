@@ -6,15 +6,15 @@ module counter
 	input		wire				reset,
 		
 	input		wire				incrm_cntl,
-	input 	wire				decrm_cntl,
+	input 		wire				decrm_cntl,
 	input		wire				shift_cntl,
 	
 	input		wire				set,	
-	input		logic [5:0]		i_initial,
+	input		logic [5:0]			i_initial,
 	
 	input		wire				i_work_enable,
 	
-	output	logic [5:0]		data
+	output		logic [5:0]			data
 	
 );
 
