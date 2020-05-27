@@ -36,7 +36,10 @@ module counter
 				data <= data - 5; //декремент на 5
 				
 			else if (shift_cntl)
-				data = {data[4:0], data[5]}; //циклический сдвиг влево на 1
+			begin
+				data[5:1] <= data[4:0]; //циклический сдвиг влево на 1
+				data[0]	<= data[5];
+			end
 		end
 		
 		else
